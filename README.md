@@ -74,6 +74,22 @@ The `url` parameter must be URL-encoded. Use these character replacements:
 - **No dependencies** — external libraries are loaded from CDN
 - **Responsive design** — works on mobile, tablet, and desktop
 
+## Privacy
+
+**You can trust this page to generate QR codes privately:**
+
+- ✅ All QR code generation happens client-side in your browser
+- ✅ No data is sent to any server (no API calls or form submissions)
+- ✅ No telemetry, analytics, or tracking code
+- ✅ Tokens and URLs never leave your device
+- ✅ Downloads are local (blob URLs, no server involvement)
+
+**Minor caveats:**
+- External libraries are loaded from CDN (Cloudflare) — this creates visible network requests in browser history
+- Network observers could see you're using this tool but not what QR codes you generate
+
+**Bottom line:** Safe for private token generation and event management workflows. All sensitive data stays on your device.
+
 ## Deployment
 
 This project is deployed to GitHub Pages automatically via GitHub Actions on every push to `main`.
